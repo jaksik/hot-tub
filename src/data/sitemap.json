@@ -1,0 +1,77 @@
+{
+    "mainLinks": [
+        {
+            "title":"About",
+            "link":"/about"
+        },
+        {
+            "title":"Contact",
+            "link":"/contact"
+        }
+    ],
+    "categories": [
+        {
+            "title": "Backpacking Stoves",
+            "links": [
+                {
+                    "title": "Electric Stoves",
+                    "link": "/electric-stoves"
+                },
+                {
+                    "title": "Wood Stoves",
+                    "link": "/wood-stoves"
+                },
+                {
+                    "title": "Backpacking Stoves",
+                    "link": "/electric-stoves"
+                },
+                {
+                    "title": "Gas Stoves",
+                    "link": "/electric-stoves"
+                }
+            ]
+        },
+        {
+            "title": "Car Camping Stoves",
+            "links": [
+                {
+                    "title": "Electric Stoves",
+                    "link": "/electric-stoves"
+                },
+                {
+                    "title": "Wood Stoves",
+                    "link": "/wood-stoves"
+                },
+                {
+                    "title": "Backpacking Stoves",
+                    "link": "/electric-stoves"
+                },
+                {
+                    "title": "Gas Stoves",
+                    "link": "/electric-stoves"
+                }
+            ]
+        },
+        {
+            "title": "Backpacking Recipes",
+            "links": [
+                {
+                    "title": "Electric Stoves",
+                    "link": "/electric-stoves"
+                },
+                {
+                    "title": "Wood Stoves",
+                    "link": "/wood-stoves"
+                },
+                {
+                    "title": "Backpacking Stoves",
+                    "link": "/electric-stoves"
+                },
+                {
+                    "title": "Gas Stoves",
+                    "link": "/electric-stoves"
+                }
+            ]
+        }
+    ]
+}

@@ -1,22 +1,92 @@
 import React from "react"
 import { Link } from "gatsby"
+import Img from 'gatsby-image'
 
-import Layout from "../components/layout"
-import Image from "../components/image"
+import { Row, Col } from 'reactstrap'
+
 import SEO from "../components/seo"
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+import BlogList from '../components/BlogList'
+import BackgroundImage from '../components/BackgroundImage'
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
-)
+import './index.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './about.css'
+import svg from '../images/border.svg'
+const IndexPage = ({ data }) => {
+  console.log("data: ", data);
+
+  const site = data.site;
+
+  const categories = ["Backpacking Stoves", "Car Camping Stoves", "Camping Recipes"]
+
+  return (
+    <>
+      <SEO title="Home" />
+      <Navbar siteTitle={site.siteMetadata.title} />
+
+      <BackgroundImage image={data.landingBackground.childImageSharp.fluid} title="Cook Off-grid" />
+
+      <div className="landing-content-wrapper">
+
+        {categories.map((category, index) => (
+          <>
+            <div className="landing-content-section">
+              <img src={svg} style={{ width: `100%`, marginTop: `-50px`, zIndex: -1 }} />
+
+              <h1 className="landing-section-title" style={{ marginTop: `-70px`, zIndex: 2 }}>{category}</h1>
+
+              <BlogList blogPosts={data.allMarkdownRemark.edges} />
+
+            </div>
+            <div className={`bgimg-` + index}></div>
+          </>
+        ))}
+
+        <Footer siteTitle={site.siteMetadata.title} />
+
+      </div>
+
+    </>
+  )
+}
 
 export default IndexPage
+
+export const query = graphql`
+query {
+  site {
+    siteMetadata {
+      title
+    }
+  }
+  landingBackground: file(relativePath: { eq: "msr.jpg" }) {
+    childImageSharp {
+      fluid(quality: 100) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  allMarkdownRemark {
+    edges {
+      node {
+        fields {
+          slug
+        }
+        id
+        frontmatter {
+          title
+          image {
+            childImageSharp {
+              fluid(quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+`

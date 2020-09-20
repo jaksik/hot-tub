@@ -1,0 +1,22 @@
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: #00000036;
+    z-index: 10;
+}
+
+.blog-card {
+    height: 200;
+    margin: 20px 0;
+    overflow: hidden;
+    box-shadow: 5px 5px 4px grey;
+    border-radius: 20px;
+}
+
+.blog-card-title {
+    position: absolute;
+    z-index: 20;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
