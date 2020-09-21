@@ -30,19 +30,14 @@ const IndexPage = ({ data }) => {
 
       <div className="landing-content-wrapper">
 
-        {categories.map((category, index) => (
-          <>
-            <div className="landing-content-section">
+      <div className="landing-content-section">
               <img src={svg} style={{ width: `100%`, marginTop: `-50px`, zIndex: -1 }} />
 
-              <h1 className="landing-section-title" style={{ marginTop: `-70px`, zIndex: 2 }}>{category}</h1>
+              <h1 className="landing-section-title" style={{ marginTop: `-70px`, zIndex: 2 }}>Blog</h1>
 
               <BlogList blogPosts={data.allMarkdownRemark.edges} />
 
             </div>
-            <div className={`bgimg-` + index}></div>
-          </>
-        ))}
 
         <Footer siteTitle={site.siteMetadata.title} />
 

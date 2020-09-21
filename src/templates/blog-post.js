@@ -13,16 +13,13 @@ export default ({ data }) => {
   return (
     <Layout>
       <SEO title={info.frontmatter.title} keywords={info.frontmatter.tags} />
-      <div style={{height:`70vh`, overflow:`hidden`}}>
-      <Img fluid={info.frontmatter.image.childImageSharp.fluid}/>
+      <div style={{ height: `70vh`, overflow: `hidden` }}>
+        <Img fluid={info.frontmatter.image.childImageSharp.fluid} />
       </div>
-      <Container>
-        <div style={{maxWidth:`600px`, margin:`0 auto`}}>
-        <h1 style={{margin:`0px 0 30px`, paddingTop: `80px`}}>{info.frontmatter.title}</h1>
-        <h5 style={{margin:`30px 0 70px`, fontWeight:`bold`}}>{info.frontmatter.description}</h5>
-        <div dangerouslySetInnerHTML={{ __html: info.html }}/>
+        <div style={{ maxWidth: `600px`, margin: `0 auto` }}>
+          <h1 className="blog-post-title mb-5">{info.frontmatter.title}</h1>
+          <div dangerouslySetInnerHTML={{ __html: info.html }} />
         </div>
-      </Container>
     </Layout>
   )
 }
