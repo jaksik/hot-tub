@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Cook Off-grid`,
-    description: `Boilerplate for SEO friendly affiliate sites.`,
-    author: `@gatsbyjs`,
+    title: `affiliate-template`,
+    description: `Affiliate blog template.`,
+    author: `@jaksik`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -1,8 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
-import Img from 'gatsby-image'
-
-import { Row, Col } from 'reactstrap'
 
 import SEO from "../components/seo"
 import Navbar from '../components/Navbar'
@@ -11,15 +7,14 @@ import BlogList from '../components/BlogList'
 import BackgroundImage from '../components/BackgroundImage'
 
 import './index.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './about.css'
 import svg from '../images/border.svg'
+
 const IndexPage = ({ data }) => {
   console.log("data: ", data);
 
   const site = data.site;
-
-  const categories = ["Backpacking Stoves", "Car Camping Stoves", "Camping Recipes"]
 
   return (
     <>
