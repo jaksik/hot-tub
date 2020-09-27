@@ -34,7 +34,7 @@ const NavbarComponent = ({ siteTitle }) => {
         <Collapse isOpen={!collapsed} navbar>
           <div className="d-flex justify-content-end h-100 w-100">
             <Nav navbar>
-
+{/* 
               {links.categories.map((category, index) => (
                 <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle nav caret>
@@ -50,13 +50,11 @@ const NavbarComponent = ({ siteTitle }) => {
                     ))}
                   </DropdownMenu>
                 </UncontrolledDropdown>
-              ))}
+              ))} */}
 
               {links.mainLinks.map((mainLink, ind) => (
                 <NavItem key={ind}>
-                  <NavLink>
                     <Link to={mainLink.link} style={{color:`white`}}>{mainLink.title}</Link>
-                    </NavLink>
                 </NavItem>
               ))}
 

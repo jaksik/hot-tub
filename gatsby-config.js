@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `affiliate-template`,
+    title: `Epic National Parks`,
     description: `Affiliate blog template.`,
     author: `@jaksik`,
   },
@@ -13,20 +13,34 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `blogImages`,
+    //     path: `${__dirname}/src/pages/blog`,
+    //   },
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `blogImages`,
-        path: `${__dirname}/src/pages/blog`,
+        name: `blogStateImages`,
+        path: `${__dirname}/src/pages/blog-states`,
       },
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/src/pages/blog`,
-        name: 'pages',
-      },
-    },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     path: `${__dirname}/src/pages/blog`,
+    //     name: 'pages',
+    //   },
+    // },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     path: `${__dirname}/src/pages/blog-states`,
+    //     name: 'statepages',
+    //   },
+    // },
 
     `gatsby-transformer-sharp`,
     {

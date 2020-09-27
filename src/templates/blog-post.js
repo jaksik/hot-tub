@@ -17,7 +17,7 @@ export default ({ data }) => {
         <Img fluid={info.frontmatter.image.childImageSharp.fluid} />
       </div>
         <div style={{ maxWidth: `600px`, margin: `0 auto` }}>
-          <h1 className="blog-post-title mb-5">{info.frontmatter.title}</h1>
+          <h1 className="blog-post-title">{info.frontmatter.title}</h1>
           <div dangerouslySetInnerHTML={{ __html: info.html }} />
         </div>
     </Layout>

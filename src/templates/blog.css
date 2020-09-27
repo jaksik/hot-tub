@@ -4,8 +4,16 @@
     font-size: 48px;
 }
 
+h2, h3 {
+    font-family: serif;
+}
+
 p {
     font-family: serif;
     font-weight: 400;
     font-size: 20px;
+}
+
+.gatsby-resp-image-link {
+    pointer-events: none;
 }

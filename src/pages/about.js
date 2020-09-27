@@ -11,8 +11,17 @@ const AboutPage = ({ data }) => {
   return (
     <Layout>
 
-     <h1 style={{paddingTop:`150px`}}>Hello World</h1>
+     <div className="content-wrapper">
 
+     <div className="content-container">
+        <h1 style={{paddingTop:`150px`, textAlign:`center`}}>About Us</h1>
+
+        <p>
+          Founded in 2020, Epic National Parks was created to inspire others to get out and enjoy the beautiful nature that makes America what it is.
+        </p> 
+
+      </div>
+     </div>
     </Layout>
   )
 }

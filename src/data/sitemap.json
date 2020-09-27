@@ -11,7 +11,7 @@
     ],
     "categories": [
         {
-            "title": "Backpacking Stoves",
+            "title": "Best National Parks",
             "links": [
                 {
                     "title": "Electric Stoves",
@@ -73,5 +73,93 @@
                 }
             ]
         }
-    ]
+    ],
+    "footer": {
+        "columns": [
+            {
+                "title":"About",
+                "links":[
+                    {
+                        "title": "About Us Policy",
+                        "link": "/about"
+                    },
+                    {
+                        "title": "Contact Us",
+                        "link": "/about"
+                    },
+                    {
+                        "title": "Privacy Policy",
+                        "link": "/about"
+                    },
+                    {
+                        "title": "Cookie Policy",
+                        "link": "/about"
+                    }
+                ]
+            },
+            {
+                "title":"Best National Parks",
+                "links":[
+                    {
+                        "title": "The 17 Best National Parks",
+                        "link": "/about"
+                    },
+                    {
+                        "title": "The 17 Best National Parks",
+                        "link": "/about"
+                    },
+                    {
+                        "title": "The 17 Best National Parks",
+                        "link": "/about"
+                    },
+                    {
+                        "title": "12 Best National Parks in Winter",
+                        "link": "/about"
+                    }
+                ]
+            },
+            {
+                "title":"Image Gallery",
+                "links":[
+                    {
+                        "title": "All National Parks",
+                        "link": "/about"
+                    },
+                    {
+                        "title": "All National Parks",
+                        "link": "/about"
+                    },
+                    {
+                        "title": "All National Parks",
+                        "link": "/about"
+                    },
+                    {
+                        "title": "All National Parks",
+                        "link": "/about"
+                    }
+                ]
+            },
+            {
+                "title":"More ...",
+                "links":[
+                    {
+                        "title": "All National Parks",
+                        "link": "/about"
+                    },
+                    {
+                        "title": "All National Parks",
+                        "link": "/about"
+                    },
+                    {
+                        "title": "All National Parks",
+                        "link": "/about"
+                    },
+                    {
+                        "title": "All National Parks",
+                        "link": "/about"
+                    }
+                ]
+            }
+        ]
+    }
 }

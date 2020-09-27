@@ -21,7 +21,7 @@ const IndexPage = ({ data }) => {
       <SEO title="Home" />
       <Navbar siteTitle={site.siteMetadata.title} />
 
-      <BackgroundImage image={data.landingBackground.childImageSharp.fluid} title="Cook Off-grid" />
+      <BackgroundImage image={data.landingBackground.childImageSharp.fluid} title={site.siteMetadata.title} />
 
       <div className="landing-content-wrapper">
 
@@ -51,7 +51,7 @@ query {
       title
     }
   }
-  landingBackground: file(relativePath: { eq: "msr.jpg" }) {
+  landingBackground: file(relativePath: { eq: "landing-background.jpg" }) {
     childImageSharp {
       fluid(quality: 100) {
         ...GatsbyImageSharpFluid

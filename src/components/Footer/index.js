@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 
 import { Row, Col } from 'reactstrap'
+import data from '../../data/sitemap.json'
 import './style.css'
 
 const Footer = ({ siteTitle }) => {
@@ -17,56 +18,39 @@ const Footer = ({ siteTitle }) => {
 
       <Row className="no-gutters d-flex justify-content-around pt-5">
 
-        <Col xs={12} sm={5} xl={2}>
-          <h4>Popular Blog Posts</h4>
-          <ul>
-            {about.map((item, index) => (
-              <Link to={item}>
-                <ul>{item}</ul>
-              </Link>
-            ))}
-          </ul>
-        </Col>
+        {/* {data.footer.columns.map((column, index) => {
+          console.log("column: ", column.links);
+          return (
+            <Col xs={12} sm={5} xl={2} key={index}>
+              <h4 className="text-white">{column.title}</h4>
+              <ul>
+                {column.links.map((link, i) => {
+                  console.log("Link: ", link)
+                  return (
+                    <li style={{listStyle:`none`}}>  
+                    <Link to={link.link} key={i} style={{color:`white`}}>
+                      {link.title}
+                    </Link>
+                    </li>
+                  )
+                })}
+              </ul>
+            </Col>
+          )
+        }
+        )} */}
 
-        <Col xs={12} sm={5} xl={2}>
-          <h4>About</h4>
-          <ul>
-            {about.map((item, index) => (
-              <Link to={item}>
-                <ul>{item}</ul>
-              </Link>
-            ))}
-          </ul>
-        </Col>
+        <Link to="/about" style={{ color: `white` }}>
+          About
+        </Link>
 
-        <Col xs={12} sm={5} xl={2}>
-          <h4>About</h4>
-          <ul>
-            {about.map((item, index) => (
-              <Link to={item}>
-                <ul>{item}</ul>
-              </Link>
-            ))}
-          </ul>
-        </Col>
-
-        <Col xs={12} sm={5} xl={2}>
-          <h4>About</h4>
-          <ul>
-            {about.map((item, index) => (
-              <Link to={item}>
-                <ul>{item}</ul>
-              </Link>
-            ))}
-          </ul>
-        </Col>
-
+        <Link to="/about" style={{ color: `white` }}>
+          Contact
+        </Link>
 
 
         <Col xs={12} className="d-flex justify-content-center text-white pt-5">
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          © {new Date().getFullYear()}, Epic National Parks
         </Col>
 
       </Row>

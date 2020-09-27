@@ -1,0 +1,8 @@
+.content-wrapper {
+    width: 100%;
+}
+
+.content-container {
+    max-width: 680px;
+    margin: 0 auto;
+}
