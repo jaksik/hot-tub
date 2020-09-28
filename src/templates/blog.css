@@ -1,5 +1,5 @@
 .blog-post-title {
-    padding-top: 80px!important;
+    padding-top: 40px!important;
     font-family: serif!important;
     font-size: 48px;
 }
@@ -16,4 +16,9 @@ p {
 
 .gatsby-resp-image-link {
     pointer-events: none;
+}
+
+.blog-post-description {
+    color: rgba(117, 117, 117, 1);
+    font-weight: 300;
 }

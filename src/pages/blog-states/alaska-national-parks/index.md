@@ -8,12 +8,14 @@ tags:
   - national parks
   - Alaska
 ---
-Being the largest state in the nation, it comes to no surprise that Alaska has 8 national parks and more national park land than any other state. To visit all of the national parks in Alaska you better be prepared to put on your hiking boots, fly in a seaplane, and ride on a few boats because half of the parks in the state don't even have roads connecting them to the rest of the world.
+As the largest state in the nation it's probably no surprise that Alaska has 8 national parks that are all full of jaw dropping landscapes. What surprises most people is the mind blowing vast amounts of land that these parks cover. The size of Wrangell-St Elias National Park alone, is the size of Yellowstone National Park, Yosemite National Park, and Switzerland compbined! 
+
+To visit all of the national parks in Alaska you need to be prepared to put on your hiking boots, fly in a seaplane, and ride on a few boats because half of the national parks in Alaska don't even have roads leading to them because they are so remote.
 
 ## What are the national parks in Alaska?
-Millions of acres of pristine nature including mountains, rivers, glaciers, forests, and of course grizly bears. A visit to all of the national parks in Alaska will show you why they call the state "the last frontier".
+The national parks in Alaska are tens of millions of acres of some of the most beautiful, pristine, and jaw dropping landscapes on Earth. They include vast wildernesses, hundereds of glaciers, islands, volcanoes, salmon runs, grizly bears, and of the highest mountain in North America, Mount Denali.
 
-Alaska's national parks are with out a doubt the best places to visit in Alaska. They hold the epic and jaw dropping landscapes that we've always seen on the Discovery Channel and National Geographic.
+Alaska's national parks are with out a doubt the best places to visit in Alaska. They hold the epic and jaw dropping landscapes that we've always seen on the Discovery Channel and National Geographic. After a trip to these parks, you'll know why they call it "the last frontier".
 
 **These are the national parks in Alaska:**
 
@@ -23,11 +25,11 @@ Glacier Bay National Park is the most visited national park in Alaska with over 
 
 ### 2. Denali National Park
 ![Denali National Park](./denali.jpg)
-Home to Mount Denali, the highest mountain in North America with a summit elevation of 20,146, this park is every mountaineers paradise. 
+Home to Mount Denali, the highest mountain in North America with a summit elevation of 20,146, this park attracts everyone especially mountaineers.
 
 ### 3. Kenai Fjords National Park
 ![Kenai Fjords National Park](./kenai-fjords.jpg)
-Kenai Fjords national park is a dramatic landscape that might be able to give us a glimpse of what it looked like to be alive during the ice age. Covered in glaciers and year-round snow pack, it's time to get the snow shoes out.
+Kenai Fjords national park is a dramatic landscape that might be able to give us a glimpse of what it looked like to be alive during the ice age. Covered with over 40 glaciers and year-round snow pack, it's time to get the snow shoes out.
 
 ### 4. Katmai National Park
 ![Katmai National Park](./katmai.jpg)

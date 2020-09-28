@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
+import ShareBar from './ShareBar'
 import Navbar from "./Navbar"
 import Footer from './Footer'
 import "./layout.css"
@@ -26,6 +26,7 @@ const Layout = ({ children }) => {
           minHeight: `200vh`
         }}
       >
+        <ShareBar/>
         <main>{children}</main>
       </div>
       <Footer/>

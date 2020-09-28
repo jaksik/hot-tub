@@ -18,6 +18,8 @@ export default ({ data }) => {
       </div>
         <div style={{ maxWidth: `600px`, margin: `0 auto` }}>
           <h1 className="blog-post-title">{info.frontmatter.title}</h1>
+          <p className="blog-post-description">{info.frontmatter.description}</p>
+          <p style={{padding: `20`}}>By Connor Jaksik <br/>Oct 10 2019</p>
           <div dangerouslySetInnerHTML={{ __html: info.html }} />
         </div>
     </Layout>
@@ -32,6 +34,7 @@ export const query = graphql`
         title  
         description
         tags
+        date
         image {
           childImageSharp {
             fluid(quality: 100) {
