@@ -31,7 +31,8 @@ export default function ShareBar() {
         style={{
             width:`fit-content`,
             position:`fixed`,
-            marginTop: `200px`
+            marginTop: `200px`,
+            zIndex:200
     }}
       >
             <FacebookShareButton

@@ -4,15 +4,14 @@ import Img from 'gatsby-image'
 
 import SEO from "../components/seo"
 import Layout from '../components/layout'
-import './about.css'
 
 const ContactPage = ({ data }) => {
   console.log("data: ", data)
   return (
     <Layout>
 
-     <h1 style={{paddingTop:`150px`}}>Contact Pge</h1>
-
+     <h1 style={{paddingTop:`150px`, textAlign:`center`}}>Contact Us</h1>
+      <p style={{textAlign:`center`}}>Our Email: epicnationalparks@gmail.com</p>
     </Layout>
   )
 }

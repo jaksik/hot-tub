@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: `Epic National Parks`,
-    description: `Affiliate blog template.`,
+    description: `Enjoy national parks? Explore and discover the most beautiful national parks in the nation form Epic National Parks.`,
     author: `@jaksik`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -50,13 +51,14 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 800,
+              withWebp: true,
+              tracedSVG: true,
+              linkImagesToOriginal: false
             },
           },
         ],
       },
     },
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

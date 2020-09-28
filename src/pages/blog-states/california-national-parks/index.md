@@ -16,6 +16,7 @@ The California national parks are volcanoes, islands, forests, deserts, granite 
 
 To experience it all, you need to be prepared for road trips, boat rides, and a lot of hiking. These parks include some of the most accessible and inaccessible nature in the country.
 
+\
 **These are the national parks in California:**
 
 ### 1. Yosemite National Park

@@ -13,10 +13,11 @@ const Footer = ({ siteTitle }) => {
     <footer
       style={{
         background: `#343a40`,
+        width: `100%`
       }}
     >
 
-      <Row className="no-gutters d-flex justify-content-around pt-5">
+      <Row className="no-gutters justify-content-around pt-5">
 
         {/* {data.footer.columns.map((column, index) => {
           console.log("column: ", column.links);
@@ -42,6 +43,14 @@ const Footer = ({ siteTitle }) => {
 
         <Link to="/about" style={{ color: `white` }}>
           About
+        </Link>
+
+        <Link to="/about/cookie-policy" style={{ color: `white` }}>
+          Cookie Policy
+        </Link>
+
+        <Link to="/about/privacy-policy" style={{ color: `white` }}>
+          Privacy Policy
         </Link>
 
         <Link to="/about" style={{ color: `white` }}>

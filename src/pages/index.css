@@ -1,13 +1,9 @@
 .landing-content-wrapper {
-    margin-top: 100vh;
-    width: 100%;
-    z-index: 10;
-    position: absolute;
-    background: gainsboro;
+    padding-top: 90vh;
 }
 
 .landing-content-section {
-    position: relative;
+    background: gainsboro;
 }
 
 .content-container {

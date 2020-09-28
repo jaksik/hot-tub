@@ -8,6 +8,10 @@ h2, h3 {
     font-family: serif;
 }
 
+h3 {
+    margin-top: 40px;
+}
+
 p {
     font-family: serif;
     font-weight: 400;
@@ -21,4 +25,8 @@ p {
 .blog-post-description {
     color: rgba(117, 117, 117, 1);
     font-weight: 300;
+}
+
+.gatsby-resp-image-wrapper {
+    margin: 15px 0 15px!important;
 }

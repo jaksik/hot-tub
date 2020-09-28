@@ -2,13 +2,14 @@
 templateKey: blog-post
 title: The 8 Jaw Dropping National Parks in Alaska
 date: 2020-09-21
-description: Having such as vast amount of land, it's no surpise that the Alaska national parks happen to have some of the most jaw dropping landscapes on Earth.
+author: Connor Jaksik
+description: These are the 8 national parks in Alaska that are full of jaw dropping natural beauty.
 image: ./glacier-bay.jpg
 tags:
   - national parks
   - Alaska
 ---
-As the largest state in the nation it's probably no surprise that Alaska has 8 national parks that are all full of jaw dropping landscapes. What surprises most people is the mind blowing vast amounts of land that these parks cover. The size of Wrangell-St Elias National Park alone, is the size of Yellowstone National Park, Yosemite National Park, and Switzerland compbined! 
+Being the largest state in the nation, it comes to no surprise that Alaska has 8 national parks that are full of the most jaw dropping landscapes on Earth, these are also the best places to visit in Alaska. What surprises most people is the mind blowing vast amounts of land that these parks cover. The size of Wrangell-St Elias National Park alone, is the size of Yellowstone National Park, Yosemite National Park, and Switzerland compbined! 
 
 To visit all of the national parks in Alaska you need to be prepared to put on your hiking boots, fly in a seaplane, and ride on a few boats because half of the national parks in Alaska don't even have roads leading to them because they are so remote.
 
@@ -17,6 +18,7 @@ The national parks in Alaska are tens of millions of acres of some of the most b
 
 Alaska's national parks are with out a doubt the best places to visit in Alaska. They hold the epic and jaw dropping landscapes that we've always seen on the Discovery Channel and National Geographic. After a trip to these parks, you'll know why they call it "the last frontier".
 
+\
 **These are the national parks in Alaska:**
 
 ### 1. Glacier Bay National Park

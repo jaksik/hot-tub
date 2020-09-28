@@ -5,40 +5,45 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import BlogList from '../components/BlogList'
 import BackgroundImage from '../components/BackgroundImage'
+import svg from '../images/border.svg'
+import CookieConsent from "react-cookie-consent";
+import Layout from "../components/layout"
+import Img from 'gatsby-image'
 
 import './index.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import './about.css'
-import svg from '../images/border.svg'
 
 const IndexPage = ({ data }) => {
-  console.log("data: ", data);
 
   const site = data.site;
 
   return (
-    <>
+    <div style={{ position: `relative`, width: `100%` }}>
+
       <SEO title="Home" />
-      <Navbar siteTitle={site.siteMetadata.title} />
 
-      <BackgroundImage image={data.landingBackground.childImageSharp.fluid} title={site.siteMetadata.title} />
+      {/* <Img fluid={data.landingBackground.childImageSharp.fluid} title={site.siteMetadata.title} style={{ zIndex: `-1`, position: `fixed`, width: `100%` }} /> */}
 
-      <div className="landing-content-wrapper">
+      <BackgroundImage image={data.landingBackground.childImageSharp.fluid} title={site.siteMetadata.title}/>
 
-      <div className="landing-content-section">
-              <img src={svg} style={{ width: `100%`, marginTop: `-50px`, zIndex: -1 }} />
+      <Layout style={{ position: `absolute` }}>
 
-              <h1 className="landing-section-title" style={{ marginTop: `-70px`, zIndex: 2 }}>Blog</h1>
+        <div className="landing-content-wrapper">
 
-              <BlogList blogPosts={data.allMarkdownRemark.edges} />
+          <div className="landing-content-section">
 
-            </div>
+            <img src={svg} style={{ width: `100%`, marginTop: `-50px`, zIndex: -1 }} />
 
-        <Footer siteTitle={site.siteMetadata.title} />
+            <h1 className="landing-section-title" style={{ marginTop: `-70px`, zIndex: 2 }}>Blog</h1>
 
-      </div>
+            <BlogList blogPosts={data.allMarkdownRemark.edges} />
 
-    </>
+          </div>
+
+        </div>
+
+      </Layout>
+
+    </div>
   )
 }
 
@@ -53,8 +58,8 @@ query {
   }
   landingBackground: file(relativePath: { eq: "landing-background.jpg" }) {
     childImageSharp {
-      fluid(quality: 100) {
-        ...GatsbyImageSharpFluid
+      fluid(quality: 70) {
+        ...GatsbyImageSharpFluid_withWebp_tracedSVG
       }
     }
   }

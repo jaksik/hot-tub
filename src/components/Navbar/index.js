@@ -95,7 +95,7 @@ const NavbarComponent = ({ siteTitle }) => {
               ))} */}
 
               {links.mainLinks.map((mainLink, ind) => (
-                <NavItem key={ind}>
+                <NavItem key={ind} style={{margin:`0 20px`}}>
                     <Link to={mainLink.link} style={{color:`white`}}>{mainLink.title}</Link>
                 </NavItem>
               ))}
