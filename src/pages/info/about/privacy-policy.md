@@ -1,10 +1,10 @@
 ---
 templateKey: info-page
 title: Privacy Policy for Epic National Parks
-description: These are the 8 national parks in Alaska that are full of jaw dropping natural beauty.
+description: This is the privacy policy for the Epic National Parks website.
 tags:
-  - national parks
-  - Alaska
+  - epic national parks
+  - privacy policy
 ---
 
 <div>

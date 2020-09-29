@@ -1,10 +1,10 @@
 ---
 templateKey: info-page
 title: Cookie Policy for Epic National Parks
-description: These are the 8 national parks in Alaska that are full of jaw dropping natural beauty.
+description: This is the cookie policy for the Epic National Parks website.
 tags:
-  - national parks
-  - Alaska
+  - epic national parks
+  - cookie policy
 ---
 
 <div> 

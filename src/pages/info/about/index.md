@@ -1,10 +1,10 @@
 ---
 templateKey: info-page
 title: About Epic National Parks
-description: These are the 8 national parks in Alaska that are full of jaw dropping natural beauty.
+description: Curious how Epic National Parks was founded? The story might be more interesting than you thought.
 tags:
-  - national parks
-  - Alaska
+  - epic national parks
+  - about
 ---
 
 Epic National Parks was founded with the mission of inspiring others to explore and preserve the incredible national parks found throughout the United States. The founders of Epic National Parks are nature enthusiasts who have been visiting the national parks for as long as they can remember. They are hikers, campers, climbers, and of course road trippers.

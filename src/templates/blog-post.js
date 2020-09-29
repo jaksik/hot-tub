@@ -20,6 +20,7 @@ export default ({ data }) => {
           {/* <p style={{padding: `20`}}>By Connor Jaksik <br/>Oct 10 2019</p> */}
           <div dangerouslySetInnerHTML={{ __html: info.html }} />
         </div>
+
     </Layout>
   )
 }

@@ -3,11 +3,12 @@ templateKey: info-page
 title: Contact
 date: 2020-09-21
 author: Connor Jaksik
-description: These are the 8 national parks in Alaska that are full of jaw dropping natural beauty.
+description: Want to contact us? Send us an email or tag us in your next post.
 tags:
-  - national parks
-  - Alaska
+  - contact
+  - email
+  - epic national parks
 ---
-Please email us with any questions and for employment oportunities. 
+Please email us with any questions and for current employment opportunities. 
 
 **epicnationalparks@gmail.com**

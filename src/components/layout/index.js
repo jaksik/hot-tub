@@ -23,14 +23,14 @@ const Layout = ({ children }) => {
     <div>
       <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} />
 
-      {/* <ShareBar />
+      <ShareBar />
 
       <CookieConsent
         expires={365}
         cookieName="EpicNationalParksCookiePolicy"
       >
         This website uses cookies to enhance the user experience.
-        </CookieConsent> */}
+        </CookieConsent>
 
       <main>{children}</main>
 

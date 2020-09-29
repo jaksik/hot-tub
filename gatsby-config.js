@@ -14,13 +14,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     name: `blogImages`,
-    //     path: `${__dirname}/src/pages/blog`,
-    //   },
-    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -35,21 +28,6 @@ module.exports = {
         path: `${__dirname}/src/pages/info`,
       },
     },
-    // {
-    //   resolve: 'gatsby-source-filesystem',
-    //   options: {
-    //     path: `${__dirname}/src/pages/blog`,
-    //     name: 'pages',
-    //   },
-    // },
-    // {
-    //   resolve: 'gatsby-source-filesystem',
-    //   options: {
-    //     path: `${__dirname}/src/pages/blog-states`,
-    //     name: 'statepages',
-    //   },
-    // },
-
     `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
