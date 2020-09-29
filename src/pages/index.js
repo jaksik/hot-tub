@@ -63,7 +63,7 @@ query {
       }
     }
   }
-  allMarkdownRemark {
+  allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "blog-post"}}}) {
     edges {
       node {
         fields {

@@ -28,6 +28,13 @@ module.exports = {
         path: `${__dirname}/src/pages/blog-states`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `aboutpages`,
+        path: `${__dirname}/src/pages/info`,
+      },
+    },
     // {
     //   resolve: 'gatsby-source-filesystem',
     //   options: {

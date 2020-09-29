@@ -19,7 +19,7 @@ const BlogList = ({ blogPosts }) => (
               <div className="overlay"></div>
               <Img
                 fluid={node.node.frontmatter.image.childImageSharp.fluid}
-                style={{ position: `absolute`, width: `100%` }}
+                style={{ position: `absolute`, width: `100%`, height:`100%` }}
               />
               <h2 className="blog-card-title">
                 {node.node.frontmatter.title}

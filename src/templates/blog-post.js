@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { Container } from "reactstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./blog.css"
@@ -8,7 +7,6 @@ import Img from 'gatsby-image'
 
 export default ({ data }) => {
   const info = data.markdownRemark
-  console.log("info: ", data.markdownRemark.frontmatter.tags);
 
   return (
     <Layout>
