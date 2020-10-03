@@ -31,7 +31,7 @@ const IndexPage = ({ data }) => {
 
           <div className="landing-content-section">
 
-            <img src={svg} style={{ width: `100%`, marginTop: `-50px`, zIndex: -1 }} />
+            <img src={svg} style={{ width: `100%`, zIndex: -1 }} className="section-border"/>
 
             <h1 className="landing-section-title" style={{ marginTop: `-70px`, zIndex: 2 }}>Blog</h1>
 

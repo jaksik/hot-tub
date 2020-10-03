@@ -1,3 +1,47 @@
-.nav-wrapper {
+
+.background {
+  
+    background: #3F2314;
+
     box-shadow: 0px 6px 2px #0000001f;
+
 }
+
+.nav-brand-image {
+    width: 100%!important;
+    margin-right: 0px;
+}
+
+.nav-brand-text {
+    display: none;
+}
+
+.nav-brand-icon {
+    display: none;
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background: #3F2314;
+    }
+
+    .nav-wrapper {
+        box-shadow: 0px 6px 2px #0000001f;
+    }
+
+    .nav-brand-image {
+        width: 80%!important;
+    }
+
+    .nav-brand-text {
+        display: block;
+    }
+
+   
+    .nav-brand-banner {
+        display: none;
+    }
+  }

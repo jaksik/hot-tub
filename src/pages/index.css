@@ -10,3 +10,17 @@
     margin: 40px 0;
     text-align: center;
 }
+
+.section-border {
+    margin-top: -50px;
+}
+
+@media only screen and (max-width: 680px) {
+    .section-border {
+        margin-top: -20px;
+    }
+    
+    .landing-section-title {
+        padding-top: 40px;
+    }
+}

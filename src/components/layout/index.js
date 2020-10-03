@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
     <div>
       <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} />
 
-      <ShareBar />
+      {/* <ShareBar /> */}
 
       <CookieConsent
         expires={365}
