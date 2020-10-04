@@ -5,7 +5,7 @@ import ShareBar from '../ShareBar'
 import Navbar from "../Navbar"
 import Footer from '../Footer'
 import CookieConsent from "react-cookie-consent";
-
+import EmailForm from '../EmailForm'
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -14,6 +14,26 @@ const Layout = ({ children }) => {
       site {
         siteMetadata {
           title
+        }
+      }
+      footerImage: file(relativePath: { eq: "footer-image.jpg" }) {
+        childImageSharp {
+          fluid(quality: 70) {
+            ...GatsbyImageSharpFluid_withWebp_tracedSVG
+          }
+        }
+      }
+      blogPosts: allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "blog-post"}}}, limit: 4) {
+        edges {
+          node {
+            fields {
+              slug
+            }
+            id
+            frontmatter {
+              title
+            }
+          }
         }
       }
     }
@@ -33,8 +53,8 @@ const Layout = ({ children }) => {
         </CookieConsent>
 
       <main>{children}</main>
-
-      <Footer />
+      <EmailForm image={data.footerImage.childImageSharp.fluid}/>
+      <Footer image={data.footerImage.childImageSharp.fluid} blogPosts={data.blogPosts}/>
 
     </div>
   )

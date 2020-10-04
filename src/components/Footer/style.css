@@ -1,3 +1,25 @@
+footer {
+    background: #3f2314;
+    width: 100%;
+}
+
 ul {
     margin-left: 0!important;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+}
+
+.footer-form-wrapper {
+    width: 100%;
+    position: relative;
+}
+
+h4 {
+    color: #f69800!important;
 }

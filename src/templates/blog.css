@@ -13,7 +13,7 @@ p {
 }
 
 .blog-image-container {
-    height: 70vh;
+    max-height: 70vh;
 }
 
 .blog-content-container {
@@ -43,10 +43,10 @@ p {
 
 
 @media only screen and (max-width: 680px) {
-    .blog-image-container {
+    /* .blog-image-container {
         height: 50vh;
         padding-top: 15px
-    }
+    } */
     .blog-post-title {
         padding-top: 0px!important;
     }
