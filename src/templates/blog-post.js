@@ -1,9 +1,9 @@
 import React from "react"
+import Img from 'gatsby-image'
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./blog.css"
-import Img from 'gatsby-image'
 
 export default ({ data }) => {
   const info = data.markdownRemark
@@ -13,13 +13,10 @@ export default ({ data }) => {
       <SEO title={info.frontmatter.title} keywords={info.frontmatter.tags} />
       <div style={{ overflow: `hidden` }} className="blog-image-container">
             <Img fluid={info.frontmatter.image.childImageSharp.fluid} />
-
       </div>
 
       <div className="blog-content-container">
         <h1 className="blog-post-title">{info.frontmatter.title}</h1>
-        {/* <p className="blog-post-description">{info.frontmatter.description}</p> */}
-        {/* <p style={{padding: `20`}}>By Connor Jaksik <br/>Oct 10 2019</p> */}
         <div dangerouslySetInnerHTML={{ __html: info.html }} />
       </div>
 

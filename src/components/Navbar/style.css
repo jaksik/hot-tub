@@ -18,7 +18,18 @@
 
 .nav-brand-icon {
     display: none;
+    margin-bottom: 0;
+}
 
+
+@media only screen and (max-width: 576px) {
+    .nav-brand-banner {
+        display: none;
+    }
+
+    .nav-brand-icon {
+        display: block;
+    }
 }
 
 
@@ -40,8 +51,4 @@
         display: block;
     }
 
-   
-    .nav-brand-banner {
-        display: none;
-    }
   }

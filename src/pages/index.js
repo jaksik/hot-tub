@@ -1,14 +1,10 @@
 import React from "react"
 
 import SEO from "../components/seo"
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
 import BlogList from '../components/BlogList'
 import BackgroundImage from '../components/BackgroundImage'
 import svg from '../images/border.svg'
-import CookieConsent from "react-cookie-consent";
 import Layout from "../components/layout"
-import Img from 'gatsby-image'
 
 import './index.css'
 
@@ -20,8 +16,6 @@ const IndexPage = ({ data }) => {
     <div style={{ position: `relative`, width: `100%` }}>
 
       <SEO title="Home" />
-
-      {/* <Img fluid={data.landingBackground.childImageSharp.fluid} title={site.siteMetadata.title} style={{ zIndex: `-1`, position: `fixed`, width: `100%` }} /> */}
 
       <BackgroundImage image={data.landingBackground.childImageSharp.fluid} title={site.siteMetadata.title}/>
 

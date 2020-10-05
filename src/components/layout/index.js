@@ -54,7 +54,7 @@ const Layout = ({ children }) => {
 
       <main>{children}</main>
       <EmailForm image={data.footerImage.childImageSharp.fluid}/>
-      <Footer image={data.footerImage.childImageSharp.fluid} blogPosts={data.blogPosts}/>
+      <Footer siteTitle={data.site.siteMetadata.title} blogPosts={data.blogPosts}/>
 
     </div>
   )
