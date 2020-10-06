@@ -61,7 +61,7 @@ const Footer = ({ siteTitle, blogPosts }) => {
           <ul>
             {blogPosts.edges.map((post, index) => (
               <li key={index}>
-                <Link to={post.node.fields.slug}>
+                <Link to={post.node.fields.slug}  className="footer-link">
                   {post.node.frontmatter.title}
                 </Link>
               </li>
@@ -69,12 +69,12 @@ const Footer = ({ siteTitle, blogPosts }) => {
           </ul>
         </Col>
 
-        <Col xs={12} sm={5} lg={3} className="offset-1">
+        <Col xs={10} sm={5} lg={3} className="offset-1">
           <h4>About Us</h4>
           <ul>
             {footerLinks.map((link, index) => (
               <li key={index}>
-                <Link to={link.link}>
+                <Link to={link.link}  className="footer-link">
                   {link.title}
                 </Link>
               </li>
