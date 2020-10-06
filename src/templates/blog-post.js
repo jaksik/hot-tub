@@ -4,6 +4,8 @@ import { graphql } from "gatsby"
 import { Row, Col } from 'reactstrap'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import ProductChart from '../components/ProductChart'
+
 import "./blog.css"
 
 export default ({ data }) => {
@@ -12,12 +14,15 @@ export default ({ data }) => {
   return (
     <Layout>
       <SEO title={info.frontmatter.title} keywords={info.frontmatter.tags} />
+     
       <div style={{ overflow: `hidden` }} className="blog-image-container">
         <Img fluid={info.frontmatter.image.childImageSharp.fluid} />
       </div>
 
       <div className="blog-content-container">
         <h1 className="blog-post-title">{info.frontmatter.title}</h1>
+        <ProductChart/>
+
         <div dangerouslySetInnerHTML={{ __html: info.html }} />
       </div>
 {/* 

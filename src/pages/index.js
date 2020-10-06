@@ -5,7 +5,6 @@ import BlogList from '../components/BlogList'
 import BackgroundImage from '../components/BackgroundImage'
 import svg from '../images/border.svg'
 import Layout from "../components/layout"
-
 import './index.css'
 
 const IndexPage = ({ data }) => {
@@ -30,7 +29,6 @@ const IndexPage = ({ data }) => {
             <h1 className="landing-section-title" style={{ marginTop: `-70px`, zIndex: 2 }}>Blog</h1>
 
             <BlogList blogPosts={data.allMarkdownRemark.edges} />
-
           </div>
 
         </div>

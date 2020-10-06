@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Epic National Parks`,
-    description: `Enjoy national parks? Explore and discover the most beautiful national parks in the nation form Epic National Parks.`,
+    title: `Affiliate Template`,
+    description: `Template for creating affiliate blog websites.`,
     author: `@jaksik`,
   },
   plugins: [
@@ -23,12 +23,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     {
-      resolve: `gatsby-plugin-google-adsense`,
-      options: {
-        publisherId: `ca-pub-7254180817286668`
-      },
-    },
-    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -46,15 +40,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-136621668-4",
+        trackingId: "UA-000000000-0",
         head: true,
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `epic-national-parks`,
-        short_name: `epic`,
+        name: `affiliate-template`,
+        short_name: `affiliate`,
         start_url: `/`,
         background_color: `#3F2314`,
         theme_color: `#3F2314`,
