@@ -22,7 +22,7 @@ const EmailForm = ({ image }) => (
 
             <div className="background-image-overlay d-flex align-items-center justify-content-center">
                 <div>
-                    <p className="footer-image-title">Sign up for our news letter to recieve cool facts about the national parks.</p>
+                    <p className="footer-image-title">Sign up for our hot tub news letter!</p>
 
                     <InputGroup>
                         <Input placeholder="example@example.com"/>

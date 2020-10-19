@@ -53,7 +53,8 @@ const Footer = ({ siteTitle, blogPosts }) => {
 
       <Row className="no-gutters pt-5">
         <Col xs={8} sm={6} lg={3} className="offset-2 offset-sm-3 offset-lg-1 d-flex align-items-center mb-4 mb-lg-0">
-          <img src={banner} width="100%" />
+          {/* <img src={banner} width="100%" /> */}
+          {/* <h4 style={{textAlign:`center`}}>Hot Tub Party</h4> */}
         </Col>
 
         <Col xs={10} sm={5} lg={3} className="offset-1">

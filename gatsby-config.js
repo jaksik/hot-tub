@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Affiliate Template`,
+    title: `Hot Tub Party`,
     description: `Template for creating affiliate blog websites.`,
     author: `@jaksik`,
   },

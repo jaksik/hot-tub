@@ -56,12 +56,14 @@ const NavbarComponent = ({ siteTitle }) => {
     <div style={{ position: `fixed`, zIndex: `200`, width: `100%`, marginTop: (margin) }} className="nav-wrapper">
       <Navbar
         dark expand="md"
-        className={(scrollTop > 0 ? 'background' : '')}
+        style={{background:`lightblue`}}
       >
 
         <NavbarBrand href="/" className="mr-auto d-flex align-items-center nav-brand-image">
-          <img src={icon} width="50px" className="nav-brand-icon" />
+          {/* <img src={icon} width="50px" className="nav-brand-icon" />
           <img src={banner} style={{ marginBottom: `0` }} className="nav-brand-banner" />
+           */}
+           Hot Tub Party
         </NavbarBrand>
 
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
