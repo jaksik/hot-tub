@@ -1,5 +1,5 @@
 ---
-templateKey: blog
+templateKey: blog-post
 title: Hello World
 date: 2020-11-10T21:50:57.025Z
 description: Hello
