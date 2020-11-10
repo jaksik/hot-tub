@@ -21,6 +21,13 @@ module.exports = {
         path: `${__dirname}/src/pages/markdown`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `gallery`,
+        path: `${__dirname}/static/assets`,
+      },
+    },
     `gatsby-plugin-netlify-cms`,
     `gatsby-transformer-sharp`,
     {
